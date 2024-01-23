@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        header{
+            border: 10px solid black;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(47, 47, 47);
+            padding: 3px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.667);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+           font-weight: bold;
+           margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            text-align: center;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.727);
+            
+        }
+        main{
+            background-color: white;
+            border: 10px solid black;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.645);
+            border-radius:0px 0px 30px 30px;
+            box-shadow: 9px 11px 20px rgba(0, 0, 0, 0.489);
+        }
+        article{
+            text-align: justify;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: bisque;
+            text-align: center;
+            padding: 1px;
+        }
+        h2{
+            text-align: center;
+            font: bolder arial, sans-serif;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            border: 5px solid white;
+            margin: 140px;
+            padding: 15px;
+        }
+        footer:hover{
+            text-decoration: underline;
+        }
+        footer > p {
+            margin: 0px;
+        }
+       /* div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Qual é a importancia de uma vida educada?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est veniam qui a temporibus id illum exercitationem atque esse quia repellat beatae quas voluptatibus, vitae quos iste commodi, eaque porro rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eveniet consequuntur illum amet eum accusantium eligendi est optio alias. Magnam fugit praesentium hic iure, tempora quis cum unde ratione eum!</p>
+                <aside>
+                    <p>Esse artigo foi escrito por Luis Henrique de Souza</p>
+
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvindo sites com semânticas organizadas.</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

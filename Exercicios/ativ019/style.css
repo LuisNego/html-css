@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(124, 250, 206, 0.516);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #1D3B30;
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #3D7A65;
+    color: white;
+
+}
+h2{
+    color: rgb(1, 60, 1);
+}
+.topico{
+    text-align: right;
+    color: rgba(53, 109, 89, 0.83);
+}
+.texto{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.destaque{
+    background-color: rgba(88, 88, 255, 0.729);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
